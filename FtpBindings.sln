@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpBindings", "FtpBindings\FtpBindings.csproj", "{B0C0E6DA-1621-47D7-AB32-B1831A80E443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFFtpBindings", "AFFtpBindings\AFFtpBindings.csproj", "{5C614D0A-9A8F-45B7-8F9E-7CCF28EC942E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C0E6DA-1621-47D7-AB32-B1831A80E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C0E6DA-1621-47D7-AB32-B1831A80E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C0E6DA-1621-47D7-AB32-B1831A80E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C0E6DA-1621-47D7-AB32-B1831A80E443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C614D0A-9A8F-45B7-8F9E-7CCF28EC942E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C614D0A-9A8F-45B7-8F9E-7CCF28EC942E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C614D0A-9A8F-45B7-8F9E-7CCF28EC942E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C614D0A-9A8F-45B7-8F9E-7CCF28EC942E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED3322F3-443B-48CC-9CFC-F425E2DAEEE3}
+	EndGlobalSection
+EndGlobal

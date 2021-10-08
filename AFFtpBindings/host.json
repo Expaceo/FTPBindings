@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    },
+    "logLevel": {
+      "default": "None",
+      "Host.Results": "Information",
+      "Function": "Information",
+      "Host.Aggregator": "Information",
+      "Host.Triggers.Ftp": "Information"
+    }
+  },
+  "myFtpConfig": {
+    "Host": "ftp://waws-prod-am2-441.ftp.azurewebsites.windows.net",
+    "secureFTP": true,
+    "Username": "pgotestftp\\$pgotestftp",
+    "Password": "rKdQFHmnDoYGNi3fjpL4gY17doX0C9cxzmMl9GJs5ZwWNQFcCy84dm4Zlw3v",
+    "InFolder": "site/wwwroot",
+    "OutFolder": "",
+    "ErrFolder":  ""
+  }
+}
